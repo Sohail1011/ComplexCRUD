@@ -1,9 +1,15 @@
+import { useState } from "react"
 import { Form } from "./Form"
+import { List } from "./List"
 
 export const Hero = () => {
+
+    const [info, setInfo] = useState([]);
+
     return (
-        <div>
-            <Form />
-        </div>
+        <main className="hero">
+            <Form setInfo={setInfo} info={info} />
+            <List setInfo={setInfo} info={info} />
+        </main>
     )
 }

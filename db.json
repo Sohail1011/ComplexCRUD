@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Jason Cortes",
+      "work": "Publishing",
+      "age": 20,
+      "id": 1
+    },
+    {
+      "name": "Andrea Hurtado",
+      "work": "Development System",
+      "age": 24,
+      "id": 2
+    },
+    {
+      "name": "Carla Urtada",
+      "work": "UI Designer",
+      "age": 26,
+      "id": 3
+    },
+    {
+      "name": "Andres Gutierrez",
+      "work": "UI Designer",
+      "age": 23,
+      "id": 4
+    }
+  ]
+}

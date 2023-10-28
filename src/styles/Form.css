@@ -1,0 +1,32 @@
+.registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.entrega {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.placa {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.placa input {
+    padding: 0.4rem;
+    width: 10rem;
+}
+
+.entrega button {
+    padding: 0.5rem;
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
